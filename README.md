@@ -1,5 +1,8 @@
 # TraverseCheck
 
+### About
+TraverseCheck is a tool that can be used to check for directory traversal in vulnerable web applications.
+
 ### Usage
 
 ``` python 3
