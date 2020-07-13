@@ -3,9 +3,11 @@
 ### About
 TraverseCheck is a tool that can be used to check for directory traversal in vulnerable web applications.
 ### Getting Started
-```git clone https://github.com/umkhan23/TraverseCheck.git
-   cd TraverseCheck
-   pip3 install -r requirements.txt
+Clone the repository
+```Linux
+git clone https://github.com/umkhan23/TraverseCheck.git
+cd TraverseCheck
+pip3 install -r requirements.txt
 ```
 ### Usage
 
