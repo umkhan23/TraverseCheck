@@ -12,8 +12,8 @@ TraverseCheck is a tool that can be used to check for directory traversal in vul
     |  /= /=| | | /=\ /= /== /=\   |   |=\ /=\ /=: =/
     |  |  \=| \/  \=  |  ==/ \=    \=/ | | \=  \=: |\
 
-################################################
-Author: Usman Q Khan
+  ####################################################
+           <ins>Author: Usman Q Khan</ins>
 
 usage: python3 TraverseCheck.py -u URL -p PATH
 
