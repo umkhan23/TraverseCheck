@@ -1,3 +1,7 @@
 argparse
 requests
 time
+<<<<<<< HEAD
+=======
+colorama
+>>>>>>> 1b2280d3e72e058cc2e7ae59a79fd199d93d1b05
